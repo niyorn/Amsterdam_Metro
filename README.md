@@ -13,7 +13,7 @@ __Disabling images__
 
 __Result__ 
 
-![result of disabling images](readme-assets/images-progressive.png)
+![result of disabling images](/readme-assets/images-progressive.png)
 
 __Change__
 
@@ -21,7 +21,7 @@ When disabling images no images are displayed, also there is no alt text. So wha
 
 __Result__
 
-![add alt text](readme-assets/images-progressive-add-alt-text.png)
+![add alt text](/readme-assets/images-progressive-add-alt-text.png)
 
 ## Custom font
 
@@ -33,7 +33,7 @@ __Disabling font__
 
 __Result__
 
-![result of disabling font](readme-assets/font-progressive.png)
+![result of disabling font](/readme-assets/font-progressive.png)
 
 When disabling the font the font somehow doesn't change, this is maybe do though loading the font from a 3rd party (google) 
 
@@ -46,7 +46,23 @@ The whole site is created in javascript so when disabling this, the whole site i
 __Change__
 The base functionality of the site is showing the tram and metro line. So one solution for this can be fetching the lines from the server.
 
-- Color
+## Color
+
+__Gray scale__
+![adding gray scale](/readme-assets/color-grey-scale-progressive.png)
+
+When enabling gray scale the lines are not easy to differenciate between each other.
+
+__change__
+One thing we can add is a texture on the lines so that even if the colors are the same, there is still something to differenciate between the lines.
+
+__Inverted colors__
+![adding inverted colors](/readme-assets/color-inverted-progressive.png)
+
+When enabling inverting the colors, the lines are still easy to differenciate. So no changes here.
+
+
+
 - Breedband
 - Cookie
 - Local storage
