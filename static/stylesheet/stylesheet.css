@@ -149,6 +149,7 @@ html,body{
 }
 .info .img-container .photo{
     width: 100%;
+    font-style: italic;
 }
 
 

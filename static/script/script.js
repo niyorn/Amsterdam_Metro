@@ -320,7 +320,11 @@
 						photo: {
 							src: function () {
 								return this.photo
+							},
+							alt: function () {
+								return this.title
 							}
+							
 						}
 					}
 
