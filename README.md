@@ -109,6 +109,6 @@ Because the site is not using any cookies, there is no change to performance of 
 
 ##  Local storage
 __Chrome:__  Developer tool > Application > Local storge > Clear local storage
-
+sfsadfdf
 
 - Trackpad 
