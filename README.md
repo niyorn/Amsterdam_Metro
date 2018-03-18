@@ -84,10 +84,21 @@ __Result__
 
 After applying the trianopia filter, we can still differenciate between all the lines, so also no changes here.
 
+## Breedband
 
+__Chrome:__ Open the devloper tool > Network > Slow 3g
+!['Network tab in chrome developer tool'](/readme-assets/breedband-throttle-progressive.PNG)
 
+__Result__
 
-- Breedband
+!['Network tab in chrome developer tool'](/readme-assets/breedband-result-progressive.PNG)
+
+__Change__
+
+As you can see on the result image, the site is only usable after 17s on slow 3g. This is unacceptable. Also when clickin on a line, the image are very slowly loaded. 
+
+What we can do to improve the perceiving speed, is loading the lines first. This is because the lines are our core functionality. Then when we're loading the map, the map should be cached or saved on the local storage, this is to have it load immediately when the user is visiting the site again. As for images, we should load less of them. What we're doing now is loading the whole image galery from the database. What we should do is loading maybe three or four images and then load more images after the user scrolled through all the images.
+
 - Cookie
 - Local storage
 - Trackpad 
