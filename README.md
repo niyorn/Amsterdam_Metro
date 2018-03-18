@@ -49,6 +49,7 @@ The base functionality of the site is showing the tram and metro line. So one so
 ## Color
 
 __Windows__: You can apply different color filter by going to Settings > Ease of Acces > Color and highcontrast
+
 ![Window ease of acces settings](/readme-assets/color-settings-progressive.PNG)
 
 
@@ -62,6 +63,7 @@ __Change__
 One thing we can add is a texture on the lines so that even if the colors are the same, there is still something to differenciate between the lines.
 
 __Inverted colors__
+
 !['adding inverted colors'](/readme-assets/color-inverted-progressive.PNG)
 
 When enabling inverting the colors, the lines are still easy to differenciate. So no changes here.
@@ -71,6 +73,7 @@ __Protanopia__
 >*Protanopia (1% of males): Lacking the red cones for long-wavelength sensitive retinal cones, those with this condition are unable to distinguish between colors in the green–yellow–red section of the spectrum.* - [wikipedia](https://en.wikipedia.org/wiki/Color_blindness#Protanopia)
 
 __Result__
+
 !['Result when protanopia filter is applied'](/readme-assets/color-protanopia-progressive.PNG)
 
 After applying the protanopia filter, the lines are still easy enough to differenciate between each other, so we don't need to apply any changes.
@@ -80,6 +83,7 @@ __Tritanopia__
 >*Tritanopia (less than 1% of males and females): Lacking the short-wavelength cones, those affected see short-wavelength colors (blue, indigo and a spectral violet) greenish and drastically dimmed, some of these colors even as black. Yellow is indistinguishable from pink, and purple colors are perceived as various shades of red.* - [wikipedia](https://en.wikipedia.org/wiki/Color_blindness#Tritanopia)
 
 __Result__
+
 !['Result when tritanopia filter is applied'](/readme-assets/color-tritanopia-progressive.PNG)
 
 After applying the trianopia filter, we can still differenciate between all the lines, so also no changes here.
@@ -87,6 +91,7 @@ After applying the trianopia filter, we can still differenciate between all the 
 ## Breedband
 
 __Chrome:__ Open the devloper tool > Network > Slow 3g
+
 !['Network tab in chrome developer tool'](/readme-assets/breedband-throttle-progressive.PNG)
 
 __Result__
@@ -102,6 +107,7 @@ What we can do to improve the perceiving speed, is loading the lines first. This
 ## Cookie
 
 __Chrome:__ Settings > Advanced > Privacy and security >  Content settings > Cookies > Block 3rd parties
+
 !['disable third parties cookies'](/readme-assets/cookies-disable-progressive.PNG)
 
 __Result__
