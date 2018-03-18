@@ -99,6 +99,16 @@ As you can see on the result image, the site is only usable after 17s on slow 3g
 
 What we can do to improve the perceiving speed, is loading the lines first. This is because the lines are our core functionality. Then when we're loading the map, the map should be cached or saved on the local storage, this is to have it load immediately when the user is visiting the site again. As for images, we should load less of them. What we're doing now is loading the whole image galery from the database. What we should do is loading maybe three or four images and then load more images after the user scrolled through all the images.
 
-- Cookie
-- Local storage
+## Cookie
+
+__Chrome:__ Settings > Advanced > Privacy and security >  Content settings > Cookies > Block 3rd parties
+!['disable third parties cookies'](/readme-assets/cookies-disable-progressive.PNG)
+
+__Result__
+Because the site is not using any cookies, there is no change to performance of the site. So no changes here.
+
+##  Local storage
+__Chrome:__  Developer tool > Application > Local storge > Clear local storage
+
+
 - Trackpad 
