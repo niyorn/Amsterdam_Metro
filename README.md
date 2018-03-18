@@ -19,6 +19,20 @@ __Change__
 
 When disabling images no images are displayed, also there is no alt text. So what I did is generating alt text in the template engine, so that even if no images are displayed, there is still something to read.
 
+```javascript
+let directive = {
+						photo: {
+							src: function () {
+								return this.photo
+							},
+							alt: function () {
+								return this.title
+							}
+							
+						}
+					}
+```
+
 __Result__
 
 ![add alt text](/readme-assets/images-progressive-add-alt-text.PNG)
