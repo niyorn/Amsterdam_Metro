@@ -109,6 +109,22 @@ Because the site is not using any cookies, there is no change to performance of 
 
 ##  Local storage
 __Chrome:__  Developer tool > Application > Local storge > Clear local storage
-sfsadfdfsfsdfsdfs
 
-- Trackpad 
+!['clear local storage'](/readme-assets/local-storage-clear-progressive.PNG)
+
+__Result__
+
+Like the cookies, we're not using any local storage functions, so the site is not affected if we clear the local storage.
+
+## Trackpad
+for this test we'll disable the trackpad and only use the keyboard
+
+__Result__
+
+Immediately when we try to navigate through the site, there is no highlight on focus. We can't even select any line with the keyboard. After activating the lines with the keyboard the images are displayed. When trying to navigate through the images there is also no highlight.
+
+__Change__
+
+The lines should've a tab-index or an anchor element to be able to navigate through the lines with an keyboard, also the Images should've a focus state so that the user know where they are when tabbing through the site.
+
+!['added border to images'](/readme-assets/trackpad-focus-progressive.PNG)
