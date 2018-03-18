@@ -21,16 +21,15 @@ When disabling images no images are displayed, also there is no alt text. So wha
 
 ```javascript
 let directive = {
-						photo: {
-							src: function () {
-								return this.photo
-							},
-							alt: function () {
-								return this.title
-							}
-							
-						}
-					}
+    photo: {
+        src: function () {
+        return this.photo
+    },
+        alt: function () {
+        return this.title
+    }						
+    }
+}
 ```
 
 __Result__
