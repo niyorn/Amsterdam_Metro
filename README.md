@@ -147,3 +147,22 @@ __Change__
 The lines should've a tab-index or an anchor element to be able to navigate through the lines with an keyboard, also the Images should've a focus state so that the user know where they are when tabbing through the site.
 
 !['added border to images'](/readme-assets/trackpad-focus-progressive.PNG)
+
+## Device lab
+The further test this application, the application is also tested in the device lab. The device lab consist of different mobile devices
+
+### result
+![Amsterdam metro tested in the device lab](readme-assets/device-lab.jpg)
+The application doesn't work as well as firstly intended. As you can see from the photo, some devices display a white background instead of the map. When developing, the application is tested on multiple browser and the application works in the development enviroment, but not on the mobile devices. Somehow the application only works on devices that have __Chrome__ as browser. I don't know the specific reason for this.
+
+### Change
+![Amsterdam metro tested in the device lab with the metro lines](readme-assets/device-lab-line.jpg)
+
+The basic functionality of showing the Tram and Metro lines works really well on the devices. When something is too big or to small the user is able to pinch zoom the map. 
+
+![Amsterdam metro tested in the device lab with the metro lines](readme-assets/device-lab-detail.jpg)
+When clicked on a tram or metro line a collection of photo will be displayed with additional information. But as you can see from the photo above, this section is displayed really big. Also this is very crucial: there is no option to hide the collection of photos. The photo collection is there permanent and this takes a really big portion of the screen. Because of this, the interaction is not enjoyable anymore.
+
+change: 
+- Make photo collection smaller
+- Add additional button to hide collection when needed
