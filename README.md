@@ -1,6 +1,12 @@
 # Amsterdam_Metro
 Show the metro line of Amsterdam over the years.
 
+## Feedback
+
+*Change after feedback*
+
+[x] Test application in device lab
+
 # Progressive Enhancement
 > *Progressive Enhancement (PE) is the principle of starting with a rock-solid foundation and then adding enhancements to it if you know certain visiting user-agents can handle the improved experience.* - [Sam Dwyer](https://www.smashingmagazine.com/2009/04/progressive-enhancement-what-it-is-and-how-to-use-it/)
 ## Images
